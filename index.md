@@ -50,8 +50,7 @@ T1 PERSON 0 12 Barack Obama
 *test*
 
 
-
 ~~~ conllu
-1	She	she	PRON	PRN	Case=Nom|Num = sing	2	nsubj	_	_
-1 Saw saw VERB  VBP Num=Sing|Per=3|Tense=Pass 0 root  _ _
-~~~
+1	She	she	PRON	PRN	Case=Nom|Num=Sing	2	nsubj	_	_
+2	sees	see	VERB	VBP	Num=Sing|Per=3|Tense=Pres	0	root	_	_
+~~
