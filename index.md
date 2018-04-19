@@ -3,11 +3,23 @@ layout: entry
 title: Computational Lingustic
 ---
 
-# Universal Dependencies 
-=====
+## Universal Dependencies Annotation Guidelines
+
+# Nominals
+
+The UD annotation assumes the nominal, or noun phrase, as one of the basic structures that we expect to find in all languages. A nominal minimally consists of a noun, proper noun or pronoun.
+
+*ann format*
+
+~~~ ann
+Barack Obama is the current president.
+T1 PERSON 0 12 Barack Obama
+~~~
 
 
 ## Testing ConLL Universal Dependencies
+
+*conllu foramt*
 
 ~~~ conllu
 1    They    they    PRON    PRN    Case=Nom|Num=Plur            2    nsubj    _    _
