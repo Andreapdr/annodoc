@@ -1,11 +1,9 @@
 ---
 layout: entry
-title: Computational Lingustic
+title: Universal Dependencies Annotation Guidelines
 ---
 
-## Universal Dependencies Annotation Guidelines
-
-### Nominals
+## Nominals
 
 The UD annotation assumes the nominal, or noun phrase, as one of the basic structures that we expect to find in all languages. A nominal minimally consists of a noun, proper noun or pronoun.
 
