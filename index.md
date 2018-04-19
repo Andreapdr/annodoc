@@ -29,13 +29,14 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 The UD annotation assumes the nominal, or noun phrase, as one of the basic structures that we expect to find in all languages. A nominal minimally consists of a noun, proper noun or pronoun.
 
 
+
 ~~~ conllu
 1	Dondal	_	NOUN	_	_	2	_	_	_
 2	Trump	_	NOUN	_	_	3	nsubj	_	_
 3	is	_	VERB	_	_	0	root	_	_
-4	the	_	DET	_	_	6	_	_	_	_
+4	the	_	DET	_	_	6	_	_	_
 5	current	_	_	_	6	_	_	_	_
-6	president	_	_	_	2	obj	_	_	
+6	president	_	_	_	2	obj	_	_	_	
 
 ~~~
 
