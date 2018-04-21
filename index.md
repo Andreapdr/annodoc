@@ -57,9 +57,39 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 
 
 ~~~ conllu
-1	She	she	PRON	PRN	Case=Nom|Num=Sing	2	nsubj	_	_
-2	sees	see	VERB	VBP	Num=Sing|Per=3|Tense=Pres	0	root	_	_
-3	the	the	DET	_	_	4	_	_	_
-4	film	film	NOUN	_	_	2	obj	_	_
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	quel	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	10	nsubj:pass	_	_
+4-5	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Europa	Europa	PROPN	SP	_	10	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+8	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	consumato	consumare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	_
+15	finirà	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+16-17	coll’	_	_	_	_	_	_	_	SpaceAfter=No
+16	con	con	ADP	E	_	19	case	_	_
+17	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	19	aux:pass	_	_
+19	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	obl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	breve	breve	ADJ	A	Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	senza	senza	ADP	E	_	25	case	_	_
+24	più	più	ADV	B	_	25	advmod	_	_
+25	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	15	punct	_	_
+27-28	dalla	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	pace	pace	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n\n
 
 ~~~
