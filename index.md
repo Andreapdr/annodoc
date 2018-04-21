@@ -93,12 +93,3 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 30	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n\n
 
 ~~~
-
-~~~ conllu
-1     तत्	तद्	DET     _   Case=Nom|…|PronType=Dem   3   nsubj    _   Translit=tat|LTranslit=tad|Gloss=it
-2-3   यथानुश्रूयते	_	_       _   _                         _   _        _   SpaceAfter=No
-2     यथा	यथा	ADV     _   PronType=Rel              3   advmod   _   Translit=yathā|LTranslit=yathā|Gloss=how
-3     अनुश्रूयते   अनु-श्रु	VERB    _   Mood=Ind|…|Voice=Pass     0   root     _   Translit=anuśrūyate|LTranslit=anu-śru|Gloss=it-is-heard
-4     ।      	।	PUNCT   _   _                         3   punct    _   Translit=.|LTranslit=.|Gloss=.
-
-~~~
