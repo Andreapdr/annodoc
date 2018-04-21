@@ -86,7 +86,7 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 24	più	più	ADV	B	_	25	advmod	_	_
 25	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
 26	,	,	PUNCT	FF	_	15	punct	_	_
-27-28	dalla	_	_	_	_	_	_	_	_
+27-28	dalla	_	_	_	_	_	_	_	test
 27	da	da	ADP	E	_	29	case	_	_
 28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	pace	pace	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
