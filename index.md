@@ -93,3 +93,27 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 30	.	.	PUNCT	FS	_	15	punct	_	SpacesAfter=\n\n
 
 ~~~
+
+~~~ conllu
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	problema	problema	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	diminuzione	diminuzione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	militari	militare	ADJ	A	Number=Plur	9	amod	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:pass	_	_
+13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	risolvere	risolvere	VERB	V	VerbForm=Inf	0	root	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	altra	altro	DET	DI	Gender=Fem|Number=Sing|Prontype=Ind	17	det	_	_
+17	via	via	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	_
+
+~~~
