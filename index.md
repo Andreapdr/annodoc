@@ -7,7 +7,7 @@ title: Universal Dependencies Annotation Guidelines
 ## CoNL-U Format
 
 Annotations are encoded in plain text files (UTF-8, LF character as line break + LF char as EOF) with three types of lines:
-* Word lines cotaining the annotation of a token in **10 fields separated by single tab characters**; has (sdadasdasdasdsa
+* Word lines cotaining the annotation of a token in **10 fields separated by single tab characters**;
 * Blank lines marking sentence boundaries;
 * Comment lines strarting with ha
 
