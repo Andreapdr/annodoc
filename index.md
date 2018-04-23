@@ -117,3 +117,53 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 18	.	.	PUNCT	FS	_	14	punct	_	_
 
 ~~~
+
+~~~ conllu
+1	Germania	Germania	PROPN	SP	_	0	root	_	SpacesBefore=\s
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Austria-Ungheria	Austria-Ungheria	PROPN	SP	_	1	conj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+~~~
+
+~~~ conllu
+1	Bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Verbform=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	cioè	cioè	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	11	punct	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Potenze	potenza	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+8-9	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Intesa	Intesa	PROPN	SP	_	7	nmod	_	_
+11	riescano	riuscire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Verbform=Fin	1	conj	_	_
+12	ad	a	ADP	E	_	13	mark	_	_
+13	isolare	isolare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Germania	Germania	PROPN	SP	_	13	obj	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Europa	Europa	PROPN	SP	_	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19-20	circondandola	_	_	_	_	_	_	_	_
+19	circondando	circondare	VERB	V	Verbform=Ger	11	conj	_	_
+20	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|Prontype=Prs	19	obj	_	_
+21	con	con	ADP	E	_	23	case	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	catena	catena	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	forze	forza	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+26	tali	tale	DET	DD	Number=Plur|Prontype=Dem	28	det	_	_
+27	da	da	ADP	E	_	28	mark	_	_
+28	rendere	rendere	VERB	V	VerbForm=Inf	19	ccomp	_	_
+29	disperato	disperato	ADJ	A	Gender=Masc|Number=Sing	30	amod	_	_
+30	a	a	X	SW	Foreign=Yes	28	obj	_	_
+31	priori	priori	X	SW	Foreign=Yes	30	flat:foreign	_	_
+32	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	35	det	_	_
+33	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	_
+34	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+35	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	rivincita	rivincita	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\n\n
+~~~
