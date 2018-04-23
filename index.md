@@ -123,6 +123,7 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 2	e	e	CCONJ	CC	_	3	cc	_	_
 3	Austria-Ungheria	Austria-Ungheria	PROPN	SP	_	1	conj	_	SpaceAfter=No
 4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
 ~~~
 
 ~~~ conllu
@@ -166,4 +167,5 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 36	di	di	ADP	E	_	37	case	_	_
 37	rivincita	rivincita	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\n\n
+
 ~~~
