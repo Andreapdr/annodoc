@@ -30,4 +30,4 @@ collections:
   relation:
     output: true
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
