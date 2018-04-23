@@ -165,7 +165,7 @@ The UD annotation assumes the nominal, or noun phrase, as one of the basic struc
 34	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
 35	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
 36	di	di	ADP	E	_	37	case	_	_
-37	rivincita	rivincita	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+37	rivincita	rivincita	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	_
 38	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\n\n
 
 ~~~
