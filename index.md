@@ -33,7 +33,7 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 | **Nominal dependents** |    nmod;  appos;  nummod;               |  acl;                     |  amod;                |  det;  clf;  case; |
 
 
-### **nsubj**
+### **nsubj: nominal subject**
 A nominal subject (nsubj) is a nominal which is the syntactic subject and the proto-agent of a clause. That is, it is in the position that passes typical grammatical test for subjecthood, and this argument is the more agentive, the do-er, or the proto-agent of the clause. This nominal may be headed by a noun, or it may be a pronoun or relative pronoun or, in ellipsis contexts, other things such as an adjective.
 
 **New from v2: The nsubj relation is also used for the nominal subject of a passive verb or verb group, even though the subject is then not typically the proto-agent argument due to valency changing operations**. For languages that have a grammaticalized passive transformation, it is strongly recommended to **use the subtype nsubj:pass** in such cases.
@@ -62,7 +62,7 @@ The nsubj role is only applied to semantic arguments of a predicate. *When there
 
 ~~~
 
-### **obj**
+### **obj: (direct) object**
 
 The object of a verb is the second most core argument of a verb after the subject. Typically, it is the noun phrase that denotes the entity acted upon or which undergoes a change of state or motion (the proto-patient).
 
@@ -77,7 +77,7 @@ The object of a verb is the second most core argument of a verb after the subjec
 
 ~~~
 
-### **iobj**
+### **iobj: indirect object**
 
 The indirect object of a verb is any nominal phrase that is a core argument of the verb but is not its subject or (direct) object. The prototypical example is the recipient of ditransitive verbs of exchange:
 
