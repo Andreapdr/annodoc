@@ -19,7 +19,6 @@ name: Computational Linguistic 2 - Universal Dependencies
 baseurl: "/annodoc"
 homeurl: "https://github.com/Andreapdr/annodoc/"
 editurl: "https://github.com/Andreapdr/annodoc/edit/gh-pages"
-test: "https://github.com/Andreapdr/annodoc/sandbox"
 
 ##############################################################################
 
