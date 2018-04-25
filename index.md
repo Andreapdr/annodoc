@@ -136,7 +136,7 @@ New from v2: The csubj relation is also used for the clausal subject of a passiv
 ~~~
 
 ~~~ conllu
-1	È	_	_	_	_	3	_	_	_
+1	È	_	_	_	_	2	_	_	_
 2	stato	_	_	_	_	3	_	_	_
 3	facile	_	_	_	_	0	_	_	_
 4	ricostruire	_	_	_	_	3	csubj	_	_
