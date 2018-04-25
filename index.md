@@ -41,13 +41,13 @@ A nominal subject (nsubj) is a nominal which is the syntactic subject and the pr
 The nsubj role is only applied to semantic arguments of a predicate. *When there is an empty argument in a grammatical subject position (sometimes called a pleonastic or expletive), it is labeled as expl or better expl:impers*
 
 ~~~ conllu
-1	Clinton	_	_	_	_	2	nsubj;	_	_
+1	Clinton	_	_	_	_	2	nsubj	_	_
 2	defeated	_	_	_	_	0	_	_	_
 3	Dole	_	_	_	_	2	_	_	_
 
 ~~~
 ~~~ conllu
-1	Clinton	_	_	_	_	3	nsubj:pass;	_	_
+1	Clinton	_	_	_	_	3	nsubj:pass	_	_
 2	was	_	_	_	_	3	_	_	_
 3	defeated	_	_	_	_	0	_	_	_
 4	by	_	_	_	_	5	_	_	_
@@ -56,7 +56,7 @@ The nsubj role is only applied to semantic arguments of a predicate. *When there
 ~~~
 
 ~~~ conllu
-1	Si	_	_	_	_	3	expl:impers;	_	_
+1	Si	_	_	_	_	3	expl:impers	_	_
 2	può	_	_	_	_	3	_	_	_
 3	procedere	_	_	_	_	0	_	_	_
 
@@ -74,5 +74,73 @@ The object of a verb is the second most core argument of a verb after the subjec
 3	me	_	_	_	_	2	_	_	_
 4	a	_	_	_	_	5	_	_	_
 5	raise	_	_	_	_	2	obj	_	_
+
+~~~
+
+### **iobj**
+
+The indirect object of a verb is any nominal phrase that is a core argument of the verb but is not its subject or (direct) object. The prototypical example is the recipient of ditransitive verbs of exchange:
+
+~~~ conllu
+1	She	_	_	_	_	2	_	_	_
+2	gave	_	_	_	_	0	_	_	_
+3	me	_	_	_	_	2	iobj	_	_
+4	a	_	_	_	_	5	_	_	_
+5	raise	_	_	_	_	2	_	_	_
+
+~~~
+
+In general, if there is just one object, it should be labeled obj, regardless of the morphological case or semantic role. For example, in English, teach can take either the subject matter or the recipient as the only object, and in both cases it would be analyzed as the obj:
+
+~~~ conllu
+1	She	_	_	_	_	2	_	_	_
+2	teaches	_	_	_	_	0	_	_	_
+3	computational	_	_	_	_	4	_	_	_
+4	linguistics	_	_	_	_	2	obj	_	_
+
+~~~
+
+The indirect object of a verb is a pronominal complement which corresponds to a dative object. **In Italian the iobj only appears as clitic pronoun because when the indirect object is realized as a prepositional phrase, it is labeled as nmod (ex. Dare a qualcuno qualcosa, give something to someone).**
+
+~~~ conllu
+1	Lui	_	_	_	_	3	_	_	_
+2	le	_	_	_	_	3	iobj	_	_
+3	regalò	_	_	_	_	0	_	_	_
+4	un	_	_	_	_	5	_	_	_
+5	salvadanaio	_	_	_	_	3	_	_	_
+
+~~~
+
+~~~ conllu
+1	Mi	_	_	_	_	2	iobj	_	_
+2	sembra	_	_	_	_	0	_	_	_
+3	tutto	_	_	_	_	2	_	_	_
+4	un	_	_	_	_	5	_	_	_
+5	salvadanaio	_	_	_	_	2	_	_	_
+
+~~~
+
+### **csubj: clausal subject**
+
+A clausal subject is a clausal syntactic subject of a clause, i.e., the subject is itself a clause. The governor of this relation might not always be a verb: when the verb is a copular verb, the root of the clause is the complement of the copular verb. The dependent is the main lexical verb or other predicate of the subject clause
+
+New from v2: The csubj relation is also used for the clausal subject of a passive verb or verb group. For languages that have a grammaticalized passive transformation, it is strongly recommended to use the subtype csubj:pass in such cases.
+
+~~~ conllu
+1	What	_	_	_	_	3	_	_	_
+2	she	_	_	_	_	3	_	_	_
+3	said	_	_	_	_	4	csubj	_	_
+4	makes	_	_	_	_	0	_	_	_
+5	sense	_	_	_	_	4	_	_	_
+
+~~~
+
+~~~ conllu
+1	È	_	_	_	_	0	_	_	_
+2	stato	_	_	_	_	0	_	_	_
+3	facile	_	_	_	_	0	_	_	_
+4	ricostruire	_	_	_	_	3	csubj	_	_
+5	le	_	_	_	_	6	_	_	_
+6	telefonate	_	_	_	_	4	_	_	_
 
 ~~~
