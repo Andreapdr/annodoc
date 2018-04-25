@@ -40,6 +40,15 @@ A nominal subject (nsubj) is a nominal which is the syntactic subject and the pr
 
 ~~~ conllu
 1	Clinton	_	_	_	_	2	nsubj;	_	_
-2	defeated	_	_	_	_	_	_	_	_
-3	Dole	_	_	_	_	_	_	_	_
+2	defeated	_	_	_	_	0	_	_	_
+3	Dole	_	_	_	_	2	_	_	_
+
+~~~
+~~~ conllu
+1	Clinton	_	_	_	_	3	nsubj:pass;	_	_
+2	was	_	_	_	_	3	_	_	_
+3	defeated	_	_	_	_	0	_	_	_
+4	by	_	_	_	_	5	_	_	_
+5	Clinton	_	_	_	_	3	_	_	_
+
 ~~~
