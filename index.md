@@ -27,9 +27,9 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 
 |                    | Nominals                                 | Clauses                    | Modifier words         | Function words        |
 |-------------------:|------------------------------------------|----------------------------|------------------------|-----------------------|
-| Core arguments     | * nsubj; * obj; * iobj;                  | * csubj; * ccomp; * xcomp; |                        |                       |
-| Non-core arguments | * obl; * vocative; * expl; * dislocated; | * advcl;                   | * advmod; * discourse; | * aux; * cop; * mark; |
-| Nominal dependents | * nmod; * appos; * nummod;               | * acl;                     | * amod;                | * det; * clf; * case; |
+| Core arguments     | *nsubj*; *obj*; *iobj*;                  | *csubj*; *ccomp*; *xcomp*; |                        |                       |
+| Non-core arguments | *obl*; *vocative*; *expl*; *dislocated*; | *advcl*;                   | *advmod*; *discourse*; | *aux*; *cop*; *mark*; |
+| Nominal dependents | *nmod*; *appos*; *nummod*;               | *acl*;                     | *amod*;                | *det*; *clf*; *case*; |
 
 
 
