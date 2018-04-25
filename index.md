@@ -4,7 +4,7 @@ title: Universal Dependencies Annotation Guidelines
 ---
 
 
-## CoNL-U Format
+## CoNLL-U Format
 
 Annotations are encoded in plain text files (UTF-8, LF character as line break + LF char as EOF) with three types of lines:
 * Word lines cotaining the annotation of a token in **10 fields separated by single tab characters**;
@@ -24,6 +24,8 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 9. DEPS: Enhanced dependency graph in the form of a list of head-deprel pairs;
 10. MISC: Any other annotation.
 
+## Syntactic relations Table
+
 |                    | Nominals                                 | Clauses                    | Modifier words         | Function words        |
 |-------------------:|------------------------------------------|----------------------------|------------------------|-----------------------|
 | **Core arguments**     |   nsubj;  obj;  iobj;                  |  csubj;  ccomp;  xcomp; |                        |                       |
@@ -31,20 +33,13 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 | **Nominal dependents** |    nmod;  appos;  nummod;               |  acl;                     |  amod;                |  det;  clf;  case; |
 
 
+### nsubj
+A nominal subject (nsubj) is a nominal which is the syntactic subject and the proto-agent of a clause. That is, it is in the position that passes typical grammatical test for subjecthood, and this argument is the more agentive, the do-er, or the proto-agent of the clause. This nominal may be headed by a noun, or it may be a pronoun or relative pronoun or, in ellipsis contexts, other things such as an adjective.
 
-## Nominals
-
-The UD annotation assumes the nominal, or noun phrase, as one of the basic structures that we expect to find in all languages. A nominal minimally consists of a noun, proper noun or pronoun.
-
-
+**New from v2: The nsubj relation is also used for the nominal subject of a passive verb or verb group, even though the subject is then not typically the proto-agent argument due to valency changing operations**. For languages that have a grammaticalized passive transformation, it is strongly recommended to **use the subtype nsubj:pass** in such cases.
 
 ~~~ conllu
-1	Dondal	_	NOUN	_	_	2	_	_	_
-2	Trump	_	NOUN	_	_	3	nsubj	_	_
-3	is	_	VERB	_	_	0	root	_	_
-4	the	_	DET	_	_	6	_	_	_
-5	current	_	_	_	6	_	_	_	_
-6	president	_	_	_	2	obj	_	_	_	
-
+1	Clinton	_	_	_	_	2	nsubj;	_	_
+2 defeated	_	_	_	_	_	_	_	_
+3 Dole	_	_	_	_	_	_	_	_
 ~~~
-
