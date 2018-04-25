@@ -144,3 +144,30 @@ New from v2: The csubj relation is also used for the clausal subject of a passiv
 6	telefonate	_	_	_	_	4	_	_	_
 
 ~~~
+
+### **ccomp: clausal complement**
+
+A clausal complement of a verb or adjective is a dependent clause which is a core argument. That is, it functions like an object of the verb, or adjective.
+
+~~~ conllu
+1	He	_	_	_	_	2	_	_	_
+2	says	_	_	_	_	0	_	_	_
+3	that	_	_	_	_	5	mark	_	_	
+4	you	_	_	_	_	5	_	_	_
+5	like	_	_	_	_	2	ccomp	_	_
+6	to	_	_	_	_	7	_	_	_
+7	swim	_	_	_	_	5	_	_	_
+
+~~~
+
+~~~ conllu
+1	He	_	_	_	_	2	_	_	_
+2	says	_	_	_	_	0	_	_	_
+3	you	_	_	_	_	4	_	_	_
+4	like	_	_	_	_	2	ccomp	_	_
+5	to	_	_	_	_	6	_	_	_
+6	swim	_	_	_	_	4	_	_	_
+
+~~~
+
+Such clausal complements may be finite or nonfinite. However, if the subject of the clausal complement is controlled (that is, must be the same as the higher subject or object, with no other possible interpretation) the appropriate relation is xcomp.
