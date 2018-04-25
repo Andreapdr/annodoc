@@ -72,7 +72,7 @@ The object of a verb is the second most core argument of a verb after the subjec
 1	She	_	_	_	_	2	_	_	_
 2	gave	_	_	_	_	0	_	_	_
 3	me	_	_	_	_	2	_	_	_
-4	a	_	_	_	_	4	_	_	_
+4	a	_	_	_	_	5	_	_	_
 5	raise	_	_	_	_	2	obj	_	_
 
 ~~~
