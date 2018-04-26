@@ -178,27 +178,27 @@ Such clausal complements may be finite or nonfinite. However, if the subject of 
 A clause which modifies a verb or a predicate, as a modifier not as a core-complement. This includes things such as a temporal clause, consequence, conditional clause, purpose clause, etc. **The dependent must be clausal (or else it is an advmod) and the dependent is the main predicate of the clause**.
 
 ~~~ conllu
-1	The	_	_	_	_	_	_	_	_
-2	accident	_	_	_	_	_	_	_	_
+1	The	_	_	_	_	0	_	_	_
+2	accident	_	_	_	_	0	_	_	_
 3	happened	_	_	_	_	0	_	_	_
-4	as	_	_	_	_	_	_	_	_
-5	night	_	_	_	_	_	_	_	_
-6	was	_	_	_	_	_	_	_	_
-7	falling	_	_	_	_	_	3	advcl	_
+4	as	_	_	_	_	0	_	_	_
+5	night	_	_	_	_	0	_	_	_
+6	was	_	_	_	_	0	_	_	_
+7	falling	_	_	_	_ 3 advcl _ _
 
 ~~~
 
 ~~~ conllu
-1	He	_	_	_	_	_	_	_	_
+1	He	_	_	_	_	0	_	_	_
 2	talked	_	_	_	_	0	_	_	_
-3	to	_	_	_	_	_	_	_	_
-4	him	_	_	_	_	_	_	_	_
-5	in	_	_	_	_	_	_	_	_
-6	order	_	_	_	_	_	_	_	_
-7	to	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	0	_	_	_
+4	him	_	_	_	_	0	_	_	_
+5	in	_	_	_	_	0	_	_	_
+6	order	_	_	_	_	0	_	_	_
+7	to	_	_	_	_	0	_	_	_
 8	secure	_	_	_	_	2	advcl	_	_
-9	the	_	_	_	_	_	_	_	_
-10	account	_	_	_	_	_	_	_	_
+9	the	_	_	_	_	0	_	_	_
+10	account	_	_	_	_	0	_	_	_
 
 ~~~
 
@@ -209,35 +209,11 @@ A clause which modifies a nominal.
 
 
 ~~~ conllu
-1	I	_	_	_	_	_	_	_	_
-2	have	_	_	_	_	_	_	_	_
-3	a	_	_	_	_	_	_	_	_
+1	I	_	_	_	_	0	_	_	_
+2	have	_	_	_	_	0	_	_	_
+3	a	_	_	_	_	0	_	_	_
 4	parakeet	_	_	_	_	0	_	_	_
 5	named	_	_	_	_	4	acl	_	_
-6	cookie	_	_	_	_	_	_	_	_
+6	cookie	_	_	_	_	0	_	_	_
 
 ~~~
-
-<table>
-<colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
-<tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
-</tbody>
-</table>
