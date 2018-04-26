@@ -27,10 +27,6 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 ## Syntactic relations Table
 
 <table>
-<colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th></th>
