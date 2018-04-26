@@ -26,11 +26,44 @@ Senteces consist of one or more word lines, and word lines cotain the following 
 
 ## Syntactic relations Table
 
-|                    | Nominals                                 | Clauses                    | Modifier words         | Function words        |
-|-------------------:|------------------------------------------|----------------------------|------------------------|-----------------------|
-| **Core arguments**     |   nsubj;  obj;  iobj;                  |  csubj;  ccomp;  xcomp; |                        |                       |
-| **Non-core arguments** |   obl;  vocative;  expl;  dislocated; |  advcl;                   |  advmod;  discourse; |  aux;  cop;  mark; |
-| **Nominal dependents** |    nmod;  appos;  nummod;               |  acl;                     |  amod;                |  det;  clf;  case; |
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Nominals</th>
+<th>Clauses</th>
+<th>Modifier words</th>
+<th>Function words</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">**Core arguments**</td>
+<td markdown="span">nsubj, obj, iobj</td>
+<td markdown="span">csubj, ccomp, xcomp</td>
+<td markdown="span"></td>
+<td markdown="span"></td>
+</tr>
+<tr>
+<td markdown="span">**Non-core arguments**</td>
+<td markdown="span">obl, vocative, expl, dislocated</td>
+<td markdown="span">advcl</td>
+<td markdown="span">advmod, discourse</td>
+<td markdown="span">aux, cop, mark</td>
+</tr>
+<td markdown="span"> **Nominal dependents** </td>
+<td markdown="span">nmod, appos, nummod</td>
+<td markdown="span">acl</td>
+<td markdown="span">amod</td>
+<td markdown="span">det, clf, case</td>
+<tr>
+</tr>
+</tbody>
+</table>
 
 
 ### **nsubj: nominal subject**
@@ -217,3 +250,5 @@ A clause which modifies a nominal.
 6	cookie	_	_	_	_	0	_	_	_
 
 ~~~
+
+
