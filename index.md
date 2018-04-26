@@ -217,7 +217,7 @@ A clause which modifies a verb or a predicate, as a modifier not as a core-compl
 4	as	_	_	_	_	0	_	_	_
 5	night	_	_	_	_	0	_	_	_
 6	was	_	_	_	_	0	_	_	_
-7	falling	_	_	_	_ 3 advcl _ _
+7 falling _ _ _ _ 3 advcl _ _
 
 ~~~
 
