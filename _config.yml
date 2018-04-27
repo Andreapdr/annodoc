@@ -15,11 +15,10 @@ markdown_ext: md
 
 # Site settings
 
-name: Computational Linguistic 2 - Universal Dependencies
-baseurl: "/annodoc"
-homeurl: "https://github.com/Andreapdr/annodoc/"
-editurl: "https://github.com/Andreapdr/annodoc/edit/gh-pages"
-sandbox: "https://andreapdr.github.io/lc2/sandbox"
+name: Computational Linguistics 2 - Universal Dependencies
+baseurl: "/lc2"
+homeurl: "https://github.com/Andreapdr/lc2/"
+editurl: "https://github.com/Andreapdr/lc2/edit/gh-pages"
 
 ##############################################################################
 
