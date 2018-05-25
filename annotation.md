@@ -97,13 +97,7 @@ title: Revisione Annotazione
 ~~~
 
 ~~~ conllu
-19	essi	essi	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
-20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
-21	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-22	in	in	ADP	E	_	23	case	_	_
-23	grado	grado	NOUN	S	Gender=Masc|Number=Sing	21	xcomp	_	_
-24	di	di	ADP	E	_	25	mark	_	_
-25	dominare	dominare	VERB	V	VerbForm=Inf	23	acl	_	_
+
 26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	czechi	ceco	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
 28	in	in	ADP	E	_	29	case	_	_
