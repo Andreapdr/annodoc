@@ -68,3 +68,69 @@ title: Revisione Annotazione
 56	.	.	PUNCT	FS	_	9	punct	_	_
 
 ~~~
+
+
+~~~ conllu
+
+1	I	il	2	det	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	DET		RD		_	_
+2	tedeschi	tedesco	9	nsubj	Gender=Masc|Number=Plur	NOUN		S		_	_
+3-4	dell’	_	_	_	_	_		_		_	SpaceAfter=No
+3	di	di	5	case	_	ADP		E		_	_
+4	l’	il	5	det	Definite=Def|Number=Sing|PronType=Art	DET		RD		_	_
+5	Austria	Austria	2	nmod	_	PROPN		SP		_	_
+6	e	e	8	cc	_	CCONJ		CC		_	_
+7	i	il	8	det	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	DET		RD		_	_
+8	magiari	magiaro	2	conj	Gender=Masc|Number=Plur	NOUN		S		_	_
+9	sentono	sentire	0	root	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	VERB		V		_	_
+10	che	che	21	mark	_	SCONJ		CS		_	SpaceAfter=No
+11	,	,	21	punct	_	PUNCT		FF		_	_
+12	senza	senza	14	case	_	ADP		E		_	_
+13	l’	il	14	det	Definite=Def|Number=Sing|PronType=Art	DET		RD		_	SpaceAfter=No
+14	appoggio	appoggio	21	obl	Gender=Masc|Number=Sing	NOUN		S		_	_
+15-16	della	_	_	_	_	_		_		_	_
+15	di	di	17	case	_	ADP		E		_	_
+16	la	il	17	det	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	DET		RD		_	_
+17	Germania	Germania	14	nmod	_	PROPN		SP		_	SpaceAfter=No
+18	,	,	14	punct	_	PUNCT		FF		_	_
+19	essi	essi	23	nsubj	Gender=Masc|Number=Plur|Person=3|PronType=Prs	PRON		PE		_	_
+20	non	non	21	advmod	PronType=Neg	ADV		BN		_	_
+21	sarebbero	essere	9	cop	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	VERB		V		_	_
+22	in	in	23	case	_	ADP		E		_	_
+23	grado	grado	21	xcomp	Gender=Masc|Number=Sing	NOUN		S		_	_
+24	di	di	25	mark	_	ADP		E		_	_
+25	dominare	dominare	23	acl	VerbForm=Inf	VERB		V		_	_
+26	gli	il	27	det	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	DET		RD		_	_
+27	czechi	ceco	25	obj	Gender=Masc|Number=Plur	NOUN		S		_	_
+28	in	in	29	case	_	ADP		E		_	_
+29	Boemia	Boemia	27	nmod	_	PROPN		SP		_	_
+30	e	e	32	cc	_	CCONJ		CC		_	_
+31	in	in	32	case	_	ADP		E		_	_
+32	Moravia	Moravia	29	conj	_	PROPN		SP		_	SpaceAfter=No
+33	,	,	35	punct	_	PUNCT		FF		_	_
+34	i	il	35	det	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	DET		RD		_	_
+35	rumeni	rumeno	27	conj	Gender=Masc|Number=Plur	NOUN		S		_	_
+36	in	in	37	case	_	ADP		E		_	_
+37	Transilvania	Transilvania	35	nmod	_	PROPN		SP		_	SpaceAfter=No
+38	,	,	40	punct	_	PUNCT		FF		_	_
+39	gl’	il	40	det	Definite=Def|Gender=Masc|Number=Plur|Prontype=Art	DET		RD		_	SpaceAfter=No
+40	italiani	italiano	27	conj	Gender=Masc|Number=Plur	NOUN		S		_	SpaceAfter=No
+41	,	,	43	punct	_	PUNCT		FF		_	_
+42	gli	il	43	det	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	DET		RD		_	_
+43	sloveni	sloveno	27	conj	Gender=Masc|Number=Plur	NOUN		S		_	_
+44	e	e	46	cc	_	CCONJ		CC		_	_
+45	i	il	46	det	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	DET		RD		_	_
+46	serbo-croati	serbo-croato	43	conj	Gender=Masc|Number=Plur	NOUN		S		_	SpaceAfter=No
+47-48	nella	_	_	_	_	_		_		_	_
+47	in	in	49	case	_	ADP		E		_	_
+48	la	il	49	det	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	DET		RD		_	_
+49	zona	zona	43	nmod	Gender=Fem|Number=Sing	NOUN		S		_	_
+50	meridionale	meridionale	49	amod	Number=Sing	ADJ		A		_	_
+51	e	e	52	cc	_	CCONJ		CC		_	_
+52	adriatica	adriatico	50	conj	Gender=Fem|Number=Sing	ADJ		A		_	_
+53-54	dell’	_	_	_	_	_		_		_	SpaceAfter=No
+53	di	di	55	case	_	ADP		E		_	_
+54	l’	il	55	det	Definite=Def|Number=Sing|PronType=Art	DET		RD		_	_
+55	Impero	impero	49	nmod	Gender=Masc|Number=Sing	NOUN		S		_	SpaceAfter=No
+56	.	.	9	punct	_	PUNCT		FS		_	_
+
+~~~
