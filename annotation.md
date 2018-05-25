@@ -92,6 +92,11 @@ title: Revisione Annotazione
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Germania	Germania	PROPN	SP	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	FF	_	14	punct	_	_
+56	.	.	PUNCT	FS	_	9	punct	_	_
+
+~~~
+
+~~~ conllu
 19	essi	essi	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
 21	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -131,6 +136,4 @@ title: Revisione Annotazione
 53	di	di	ADP	E	_	55	case	_	_
 54	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
 55	Impero	impero	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
-56	.	.	PUNCT	FS	_	9	punct	_	_
-
 ~~~
