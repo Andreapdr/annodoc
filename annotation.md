@@ -340,7 +340,7 @@ title: Revisione Annotazione
 
 1	Giuseppe	Giuseppe	PROPN	SP	_	6	nmod	_	_
 2	Mazzini	Mazzini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
-3	,	,	PUNCT	FF	_	1	punct	_	_
+3	,	,	PUNCT	FF	_	6	punct	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
 6	idealista	idealista	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
@@ -355,10 +355,10 @@ title: Revisione Annotazione
 1	Nè	né	CCONJ	CC	_	3	cc	_	_
 2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
 3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	—	—	PUNCT	FF	_	3	punct	_	_
+4	—	—	PUNCT	FF	_	5	punct	_	_
 5	badiamo	badare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|Verbform=Fin	3	discourse	_	_
 6	bene	bene	ADV	B	_	5	advmod	_	_
-7	—	—	PUNCT	FF	_	3	punct	_	_
+7	—	—	PUNCT	FF	_	5	punct	_	_
 8	di	di	ADP	E	_	10	case	_	SpacesAfter=\s\s
 9	semplici	semplice	ADJ	A	Number=Plur	10	amod	_	_
 10	coincidenze	coincidenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
