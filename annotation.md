@@ -17,7 +17,7 @@ title: Revisione Annotazione
 7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	magiari	magiaro	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
 9	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+10	che	che	SCONJ	CS	_	23	mark	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	24	punct	_	_
 12	senza	senza	ADP	E	_	14	case	_	_
 13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
