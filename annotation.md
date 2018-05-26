@@ -338,7 +338,7 @@ title: Revisione Annotazione
 
 ~~~ conllu
 
-1	Giuseppe	Giuseppe	PROPN	SP	_	6	nmod	_	_
+1	Giuseppe	Giuseppe	PROPN	SP	_	42	conj	_	_
 2	Mazzini	Mazzini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	6	punct	_	_
 4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
