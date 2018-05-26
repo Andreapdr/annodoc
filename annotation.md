@@ -3,6 +3,8 @@ layout: entry
 title: Revisione Annotazione
 ---
 
+## Errori Random
+
 ~~~ conllu
 
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
@@ -68,7 +70,7 @@ title: Revisione Annotazione
 
 ~~~
 
-
+## Problematiche del discorso oratorio
 
 ~~~ conllu
 
@@ -112,6 +114,7 @@ title: Revisione Annotazione
 
 ~~~
 
+## Un po' di errori
 
 ~~~ conllu
 
@@ -235,6 +238,7 @@ title: Revisione Annotazione
 
 ~~~
 
+## Catena di nomi sbagliata
 
 ~~~ conllu
 
@@ -330,6 +334,7 @@ title: Revisione Annotazione
 
 ~~~
 
+## Caso Appos
 
 ~~~ conllu
 
@@ -342,6 +347,8 @@ title: Revisione Annotazione
 7	,	,	PUNCT	FF	_	6	punct	_	_
 
 ~~~
+
+## Caso Discourse
 
 ~~~ conllu
 
