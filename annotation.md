@@ -31,7 +31,7 @@ title: Revisione Annotazione
 20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
 21	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 22	in	in	ADP	E	_	23	case	_	_
-23	grado	grado	NOUN	S	Gender=Masc|Number=Sing	21	xcomp	_	_
+23	grado	grado	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
 24	di	di	ADP	E	_	25	mark	_	_
 25	dominare	dominare	VERB	V	VerbForm=Inf	23	acl	_	_
 26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
