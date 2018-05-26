@@ -29,7 +29,7 @@ title: Revisione Annotazione
 18	,	,	PUNCT	FF	_	14	punct	_	_
 19	essi	essi	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
-21	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+21	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 22	in	in	ADP	E	_	23	case	_	_
 23	grado	grado	NOUN	S	Gender=Masc|Number=Sing	9	xcomp	_	_
 24	di	di	ADP	E	_	25	mark	_	_
