@@ -18,7 +18,7 @@ title: Revisione Annotazione
 8	magiari	magiaro	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
 9	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
-11	,	,	PUNCT	FF	_	21	punct	_	_
+11	,	,	PUNCT	FF	_	24	punct	_	_
 12	senza	senza	ADP	E	_	14	case	_	_
 13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
