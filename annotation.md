@@ -21,7 +21,7 @@ title: Revisione Annotazione
 11	,	,	PUNCT	FF	_	21	punct	_	_
 12	senza	senza	ADP	E	_	14	case	_	_
 13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+14	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
 15-16	della	_	_	_	_	_	_	_	_
 15	di	di	ADP	E	_	17	case	_	_
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
