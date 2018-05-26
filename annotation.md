@@ -76,7 +76,7 @@ title: Revisione Annotazione
 
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	unificazione	unificazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	FF	_	2	punct	_	_
+3	,	,	PUNCT	FF	_	6	punct	_	_
 4	anzi	anzi	ADV	B	_	6	cc	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	rimescolamento	rimescolamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
@@ -97,7 +97,7 @@ title: Revisione Annotazione
 19	da	da	ADP	E	_	21	case	_	_
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Germania	Germania	PROPN	SP	_	18	obl:agent	_	SpaceAfter=No
-22	,	,	PUNCT	FF	_	2	punct	_	_
+22	,	,	PUNCT	FF	_	6	punct	_	_
 23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 24	definitivamente	definitivamente	ADV	B	_	25	advmod	_	_
 25	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
