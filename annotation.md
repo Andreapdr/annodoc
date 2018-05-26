@@ -9,7 +9,7 @@ title: Revisione Annotazione
 
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
-3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3-4	dell’	_	_	_	_	_	_	_ _
 3	di	di	ADP	E	_	5	case	_	_
 4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	Austria	Austria	PROPN	SP	_	2	nmod	_	_
@@ -17,7 +17,7 @@ title: Revisione Annotazione
 7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	magiari	magiaro	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
 9	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+10	che	che	SCONJ	CS	_	21	mark	_ _
 11	,	,	PUNCT	FF	_	21	punct	_	_
 12	senza	senza	ADP	E	_	14	case	_	_
 13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -25,7 +25,7 @@ title: Revisione Annotazione
 15-16	della	_	_	_	_	_	_	_	_
 15	di	di	ADP	E	_	17	case	_	_
 16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Germania	Germania	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	Germania	Germania	PROPN	SP	_	14	nmod	_ _
 18	,	,	PUNCT	FF	_	14	punct	_	_
 19	essi	essi	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	_
 20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
@@ -45,16 +45,16 @@ title: Revisione Annotazione
 34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	rumeni	rumeno	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
 36	in	in	ADP	E	_	37	case	_	_
-37	Transilvania	Transilvania	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+37	Transilvania	Transilvania	PROPN	SP	_	35	nmod	_ _
 38	,	,	PUNCT	FF	_	40	punct	_	_
-39	gl’	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|Prontype=Art	40	det	_	SpaceAfter=No
+39	gl’	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|Prontype=Art	40	det	_ _
 40	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
 41	,	,	PUNCT	FF	_	43	punct	_	_
 42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
 43	sloveni	sloveno	NOUN	S	Gender=Masc|Number=Plur	27	conj	_	_
 44	e	e	CCONJ	CC	_	46	cc	_	_
 45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
-46	serbo-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	43	conj	_	SpaceAfter=No
+46	serbo-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	43	conj	_ _
 47-48	nella	_	_	_	_	_	_	_	_
 47	in	in	ADP	E	_	49	case	_	_
 48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
@@ -65,7 +65,7 @@ title: Revisione Annotazione
 53-54	dell’	_	_	_	_	_	_	_	SpaceAfter=No
 53	di	di	ADP	E	_	55	case	_	_
 54	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
-55	Impero	impero	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+55	Impero	impero	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_ _
 56	.	.	PUNCT	FS	_	9	punct	_	_
 
 ~~~
@@ -75,7 +75,7 @@ title: Revisione Annotazione
 ~~~ conllu
 
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	unificazione	unificazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+2	unificazione	unificazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_ _
 3	,	,	PUNCT	FF	_	6	punct	_	_
 4	anzi	anzi	ADV	B	_	6	cc	_	_
 5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -109,7 +109,7 @@ title: Revisione Annotazione
 30	in	in	ADP	E	_	32	case	_	_
 31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	Confederazione	Confederazione	PROPN	SP	_	25	obl	_	_
-33	germanica	germanico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+33	germanica	germanico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_ _
 34	.	.	PUNCT	FS	_	25	punct	_	_
 
 ~~~
@@ -125,7 +125,7 @@ title: Revisione Annotazione
 5-6	dell’	_	_	_	_	_	_	_	SpaceAfter=No
 5	di	di	ADP	E	_	7	case	_	_
 6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
-7	Intesa	Intesa	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	Intesa	Intesa	PROPN	SP	_	4	nmod	_ _
 8	,	,	PUNCT	FF	_	4	punct	_	_
 9-10	nella	_	_	_	_	_	_	_	_
 9	in	in	ADP	E	_	12	case	_	_
@@ -164,7 +164,7 @@ title: Revisione Annotazione
 39	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	41	det:predet	_	_
 40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
 41	territori	territorio	NOUN	S	Gender=Masc|Number=Plur	37	nmod	_	_
-42	occupati	occupato	ADJ	A	Gender=Masc|Number=Plur	41	amod	_	SpaceAfter=No
+42	occupati	occupato	ADJ	A	Gender=Masc|Number=Plur	41	amod	_ _
 43	,	,	PUNCT	FF	_	48	punct	_	_
 44	ma	ma	CCONJ	CC	_	48	cc	_	_
 45	anche	anche	ADV	B	_	48	advmod	_	_
@@ -174,12 +174,12 @@ title: Revisione Annotazione
 49-50	degli	_	_	_	_	_	_	_	_
 49	di	di	ADP	E	_	51	case	_	_
 50	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
-51	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
+51	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	48	nmod	_ _
 52	,	,	PUNCT	FF	_	55	punct	_	_
 53-54	degli	_	_	_	_	_	_	_	_
 53	di	di	ADP	E	_	55	case	_	_
 54	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
-55	slavi	slavo	NOUN	S	Gender=Masc|Number=Plur	51	conj	_	SpaceAfter=No
+55	slavi	slavo	NOUN	S	Gender=Masc|Number=Plur	51	conj	_ _
 56	,	,	PUNCT	FF	_	59	punct	_	_
 57-58	dei	_	_	_	_	_	_	_	_
 57	di	di	ADP	E	_	59	case	_	_
@@ -196,7 +196,7 @@ title: Revisione Annotazione
 66	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
 67	dominazione	dominazione	NOUN	S	Gender=Fem|Number=Sing	48	obl	_	_
 68	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	67	amod	_	_
-69	»	»	PUNCT	FB	_	48	punct	_	SpaceAfter=No
+69	»	»	PUNCT	FB	_	48	punct	_ _
 70	,	,	PUNCT	FF	_	74	punct	_	_
 71	cioè	cioè	CCONJ	CC	_	74	cc	_	_
 72	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	74	det	_	_
@@ -209,7 +209,7 @@ title: Revisione Annotazione
 78	di	di	ADP	E	_	79	case	_	_
 79	Casa	Casa	PROPN	SP	_	77	nmod	_	_
 80	d’	di	ADP	E	_	79	flat	_	SpaceAfter=No
-81	Austria	Austria	PROPN	SP	_	79	flat	_	SpaceAfter=No
+81	Austria	Austria	PROPN	SP	_	79	flat	_ _
 82	,	,	PUNCT	FF	_	87	punct	_	_
 83-84	alla	_	_	_	_	_	_	_	_
 83	a	a	ADP	E	_	85	case	_	_
@@ -233,8 +233,8 @@ title: Revisione Annotazione
 100-101	dell’	_	_	_	_	_	_	_	SpaceAfter=No
 100	di	di	ADP	E	_	102	case	_	_
 101	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	102	det	_	_
-102	Ungheria	Ungheria	PROPN	SP	_	98	nmod	_	SpaceAfter=No
-103	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n\n
+102	Ungheria	Ungheria	PROPN	SP	_	98	nmod	_ _
+103	.	.	PUNCT	FS	_	23	punct	_ _
 
 ~~~
 
@@ -244,7 +244,7 @@ title: Revisione Annotazione
 
 1	fra	fra	ADP	E	_	3	case	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	5	oprhan 	_	_
+3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	5	oprhan  _	_
 4	40	40	NUM	N	NumType=Card	5	nummod	_	_
 5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	73	nsubj	_	_
 6	di	di	ADP	E	_	7	case	_	_
@@ -272,7 +272,7 @@ title: Revisione Annotazione
 24	di	di	ADP	E	_	26	case	_	_
 25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Galizia	Galizia	PROPN	SP	_	22	conj	_	_
-27	occidentale	occidentale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+27	occidentale	occidentale	ADJ	A	Number=Sing	26	amod	_ _
 28	,	,	PUNCT	FF	_	30	punct	_	_
 29	di	di	ADP	E	_	30	case	_	_
 30	ruteni	ruteno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
@@ -311,7 +311,7 @@ title: Revisione Annotazione
 58	di	di	ADP	E	_	59	case	_	_
 59	sloveni	sloveno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
 60	e	e	CCONJ	CC	_	61	cc	_	_
-61	serbi-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	59	conj	_	SpaceAfter=No
+61	serbi-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	59	conj	_ _
 62	e	e	CCONJ	CC	_	63	cc	_	_
 63	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	59	conj	_	_
 64-65	della	_	_	_	_	_	_	_	_
@@ -320,7 +320,7 @@ title: Revisione Annotazione
 66	zona	zona	NOUN	S	Gender=Fem|Number=Sing	59	nmod	_	_
 67	meridionale	meridionale	ADJ	A	Number=Sing	66	amod	_	_
 68	e	e	CCONJ	CC	_	69	cc	_	_
-69	adriatica	adriatico	ADJ	A	Gender=Fem|Number=Sing	67	conj	_	SpaceAfter=No
+69	adriatica	adriatico	ADJ	A	Gender=Fem|Number=Sing	67	conj	_ _
 70	,	,	PUNCT	FF	_	3	punct	_	_
 71	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	73	aux	_	_
 72	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	73	aux:pass	_	_
@@ -329,7 +329,7 @@ title: Revisione Annotazione
 75	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
 76	ferreo	ferreo	ADJ	A	Gender=Masc|Number=Sing	77	amod	_	_
 77	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	73	obl	_	_
-78	militare	militare	ADJ	A	Number=Sing	77	amod	_	SpaceAfter=No
+78	militare	militare	ADJ	A	Number=Sing	77	amod	_ _
 79	;	;	PUNCT	FC	_	73	punct	_	_
 
 ~~~
