@@ -3,7 +3,7 @@ layout: entry
 title: Revisione Annotazione
 ---
 
-## Catena di nomi sbagliata
+## 1. Catena di nomi sbagliata
 
 ~~~ conllu
 
@@ -100,7 +100,7 @@ title: Revisione Annotazione
 ~~~
 
 
-## Clausal Complement e Copula
+## 2. Clausal Complement e Copula
 
 ~~~ conllu
 
@@ -167,7 +167,7 @@ title: Revisione Annotazione
 
 ~~~
 
-## Assegnazione Root
+## 3. Assegnazione Root
 
 ~~~ conllu
 
@@ -221,7 +221,7 @@ title: Revisione Annotazione
 
 
 
-## Caso Appos
+## 4. Caso Appos
 
 ~~~ conllu
 
@@ -235,7 +235,7 @@ title: Revisione Annotazione
 
 ~~~
 
-## Caso Discourse
+## 5. Caso Discourse
 
 ~~~ conllu
 
@@ -256,7 +256,7 @@ title: Revisione Annotazione
 
 ~~~
 
-## Problematiche del discorso oratorio
+## 6. Problematiche del discorso oratorio
 
 ~~~ conllu
 
@@ -300,7 +300,7 @@ title: Revisione Annotazione
 
 ~~~
 
-## Un po' di errori
+## 7. Altri errori
 
 ~~~ conllu
 
