@@ -171,13 +171,12 @@ title: Revisione Annotazione
 
 ~~~ conllu
 
-ID	FORM	LEMMA	UPOS	XPOS	FEATS	HEAD	DEPREL	DEPS	MISC
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	muraglia	muraglia	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
 3	vivente	vivere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	amod	_	_
 4	di	di	ADP	E	_	5	case	_	_
 5	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	FF	_	2	punct	_	_
+6	,	,	PUNCT	FF	_	8	punct	_	_
 7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
 8	vogliano	volere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -187,7 +186,7 @@ ID	FORM	LEMMA	UPOS	XPOS	FEATS	HEAD	DEPREL	DEPS	MISC
 13	e	e	CCONJ	CC	_	15	cc	_	_
 14	di	di	ADP	E	_	15	case	_	_
 15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
-16	,	,	PUNCT	FF	_	28	punct	_	_
+16	,	,	PUNCT	FF	_	25	punct	_	_
 17	e	e	CCONJ	CC	_	25	cc	_	_
 18	che	che	PRON	PR	Prontype=Rel	25	nsubj	_	_
 19-20	sulla	_	_	_	_	_	_	_	_
