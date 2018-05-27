@@ -169,6 +169,57 @@ title: Revisione Annotazione
 
 ## Una Muraglia (assegnazione ROOT)
 
+~~~ conllu
+
+ID	FORM	LEMMA	UPOS	XPOS	FEATS	HEAD	DEPREL	DEPS	MISC
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	muraglia	muraglia	NOUN	S	Gender=Fem|Number=Sing	28	nsubj	_	_
+3	vivente	vivere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	vogliano	volere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	libertà	libertà	NOUN	S	Gender=Fem	10	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	28	punct	_	_
+17	e	e	CCONJ	CC	_	25	cc	_	_
+18	che	che	PRON	PR	Prontype=Rel	25	nsubj	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	pace	pace	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	libertà	libertà	NOUN	S	Gender=Fem	22	conj	_	_
+25	vigilino	vigilare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Verbform=Fin	8	conj	_	_
+26	gelosi	geloso	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	costringerà	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Germania	Germania	PROPN	SP	_	28	obj	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32-33	liberarsi	_	_	_	_	_	_	_	_
+32	liberar	liberare	VERB	V	VerbForm=Inf	28	ccomp	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+34-35	dai	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	37	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	delirii	delirio	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	predominio	predominio	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	brutale	brutale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\s\n
+
+~~~
+
 
 
 ## Caso Appos
