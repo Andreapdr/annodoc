@@ -3,7 +3,104 @@ layout: entry
 title: Revisione Annotazione
 ---
 
-## Errori Random
+## Catena di nomi sbagliata
+
+~~~ conllu
+
+1	fra	fra	ADP	E	_	3	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	5	oprhan 	_	_
+4	40	40	NUM	N	NumType=Card	5	nummod	_	_
+5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	73	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	francesi	francese	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8-9	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Alsazia-Lorena	Alsazia-Lorena	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	danesi	danese	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+14-15	dello	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Schleswig	Schleswig	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	polacchi	polacco	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Posnania	Posnania	PROPN	SP	_	19	nmod	_	_
+23	e	e	CCONJ	CC	_	26	cc	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Galizia	Galizia	PROPN	SP	_	22	conj	_	_
+27	occidentale	occidentale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	30	punct	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	ruteni	ruteno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+31-32	della	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Galizia	Galizia	PROPN	SP	_	30	nmod	_	_
+34	orientale	orientale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	37	punct	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	czechi	ceco	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+38	e	e	CCONJ	CC	_	39	cc	_	_
+39	slovacchi	slovacco	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
+40-41	della	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Boemia	Boemia	PROPN	SP	_	39	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	46	punct	_	_
+44-45	della	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	Moravia	Moravia	PROPN	SP	_	42	conj	_	_
+47	e	e	CCONJ	CC	_	50	cc	_	_
+48-49	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+48	di	di	ADP	E	_	50	case	_	_
+49	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	_
+50	Ungheria	Ungheria	PROPN	SP	_	46	conj	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	53	punct	_	_
+52	di	di	ADP	E	_	53	case	_	_
+53	rumeni	rumeno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+54-55	della	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	Transilvania	Transilvania	PROPN	SP	_	53	nmod	_	SpaceAfter=No
+57	,	,	PUNCT	FF	_	59	punct	_	_
+58	di	di	ADP	E	_	59	case	_	_
+59	sloveni	sloveno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
+60	e	e	CCONJ	CC	_	61	cc	_	_
+61	serbi-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	59	conj	_	SpaceAfter=No
+62	e	e	CCONJ	CC	_	63	cc	_	_
+63	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	59	conj	_	_
+64-65	della	_	_	_	_	_	_	_	_
+64	di	di	ADP	E	_	66	case	_	_
+65	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
+66	zona	zona	NOUN	S	Gender=Fem|Number=Sing	59	nmod	_	_
+67	meridionale	meridionale	ADJ	A	Number=Sing	66	amod	_	_
+68	e	e	CCONJ	CC	_	69	cc	_	_
+69	adriatica	adriatico	ADJ	A	Gender=Fem|Number=Sing	67	conj	_	SpaceAfter=No
+70	,	,	PUNCT	FF	_	3	punct	_	_
+71	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	73	aux	_	_
+72	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	73	aux:pass	_	_
+73	incatenati	incatenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+74	in	in	ADP	E	_	77	case	_	_
+75	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
+76	ferreo	ferreo	ADJ	A	Gender=Masc|Number=Sing	77	amod	_	_
+77	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	73	obl	_	_
+78	militare	militare	ADJ	A	Number=Sing	77	amod	_	SpaceAfter=No
+79	;	;	PUNCT	FC	_	73	punct	_	_
+
+~~~
+
+
+## Clausal Complement e Copula
 
 ~~~ conllu
 
@@ -67,6 +164,45 @@ title: Revisione Annotazione
 54	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
 55	Impero	impero	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
 56	.	.	PUNCT	FS	_	9	punct	_	_
+
+~~~
+
+## Una Muraglia (assegnazione ROOT)
+
+
+
+## Caso Appos
+
+~~~ conllu
+
+1	Giuseppe	Giuseppe	PROPN	SP	_	42	conj	_	_
+2	Mazzini	Mazzini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	idealista	idealista	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+
+~~~
+
+## Caso Discourse
+
+~~~ conllu
+
+1	Nè	né	CCONJ	CC	_	3	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	—	—	PUNCT	FF	_	5	punct	_	_
+5	badiamo	badare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|Verbform=Fin	3	discourse	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	—	—	PUNCT	FF	_	5	punct	_	_
+8	di	di	ADP	E	_	10	case	_	SpacesAfter=\s\s
+9	semplici	semplice	ADJ	A	Number=Plur	10	amod	_	_
+10	coincidenze	coincidenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+11	fortuite	fortuito	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+12	ed	e	CCONJ	CC	_	13	cc	_	_
+13	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
 
 ~~~
 
@@ -235,136 +371,5 @@ title: Revisione Annotazione
 101	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	102	det	_	_
 102	Ungheria	Ungheria	PROPN	SP	_	98	nmod	_	SpaceAfter=No
 103	.	.	PUNCT	FS	_	23	punct	_	SpacesAfter=\n\n
-
-~~~
-
-## Catena di nomi sbagliata
-
-~~~ conllu
-
-1	fra	fra	ADP	E	_	3	case	_	_
-2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	5	oprhan 	_	_
-4	40	40	NUM	N	NumType=Card	5	nummod	_	_
-5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	73	nsubj	_	_
-6	di	di	ADP	E	_	7	case	_	_
-7	francesi	francese	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
-8-9	dell’	_	_	_	_	_	_	_	SpaceAfter=No
-8	di	di	ADP	E	_	10	case	_	_
-9	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
-10	Alsazia-Lorena	Alsazia-Lorena	PROPN	SP	_	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	FF	_	13	punct	_	_
-12	di	di	ADP	E	_	13	case	_	_
-13	danesi	danese	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
-14-15	dello	_	_	_	_	_	_	_	_
-14	di	di	ADP	E	_	16	case	_	_
-15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Schleswig	Schleswig	PROPN	SP	_	13	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	FF	_	19	punct	_	_
-18	di	di	ADP	E	_	19	case	_	_
-19	polacchi	polacco	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
-20-21	della	_	_	_	_	_	_	_	_
-20	di	di	ADP	E	_	22	case	_	_
-21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	Posnania	Posnania	PROPN	SP	_	19	nmod	_	_
-23	e	e	CCONJ	CC	_	26	cc	_	_
-24-25	della	_	_	_	_	_	_	_	_
-24	di	di	ADP	E	_	26	case	_	_
-25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Galizia	Galizia	PROPN	SP	_	22	conj	_	_
-27	occidentale	occidentale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	FF	_	30	punct	_	_
-29	di	di	ADP	E	_	30	case	_	_
-30	ruteni	ruteno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
-31-32	della	_	_	_	_	_	_	_	_
-31	di	di	ADP	E	_	33	case	_	_
-32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Galizia	Galizia	PROPN	SP	_	30	nmod	_	_
-34	orientale	orientale	ADJ	A	Number=Sing	33	amod	_	SpaceAfter=No
-35	,	,	PUNCT	FF	_	37	punct	_	_
-36	di	di	ADP	E	_	37	case	_	_
-37	czechi	ceco	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
-38	e	e	CCONJ	CC	_	39	cc	_	_
-39	slovacchi	slovacco	NOUN	S	Gender=Masc|Number=Plur	37	conj	_	_
-40-41	della	_	_	_	_	_	_	_	_
-40	di	di	ADP	E	_	42	case	_	_
-41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	Boemia	Boemia	PROPN	SP	_	39	nmod	_	SpaceAfter=No
-43	,	,	PUNCT	FF	_	46	punct	_	_
-44-45	della	_	_	_	_	_	_	_	_
-44	di	di	ADP	E	_	46	case	_	_
-45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	Moravia	Moravia	PROPN	SP	_	42	conj	_	_
-47	e	e	CCONJ	CC	_	50	cc	_	_
-48-49	dell’	_	_	_	_	_	_	_	SpaceAfter=No
-48	di	di	ADP	E	_	50	case	_	_
-49	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	_
-50	Ungheria	Ungheria	PROPN	SP	_	46	conj	_	SpaceAfter=No
-51	,	,	PUNCT	FF	_	53	punct	_	_
-52	di	di	ADP	E	_	53	case	_	_
-53	rumeni	rumeno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
-54-55	della	_	_	_	_	_	_	_	_
-54	di	di	ADP	E	_	56	case	_	_
-55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
-56	Transilvania	Transilvania	PROPN	SP	_	53	nmod	_	SpaceAfter=No
-57	,	,	PUNCT	FF	_	59	punct	_	_
-58	di	di	ADP	E	_	59	case	_	_
-59	sloveni	sloveno	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
-60	e	e	CCONJ	CC	_	61	cc	_	_
-61	serbi-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	59	conj	_	SpaceAfter=No
-62	e	e	CCONJ	CC	_	63	cc	_	_
-63	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	59	conj	_	_
-64-65	della	_	_	_	_	_	_	_	_
-64	di	di	ADP	E	_	66	case	_	_
-65	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	_
-66	zona	zona	NOUN	S	Gender=Fem|Number=Sing	59	nmod	_	_
-67	meridionale	meridionale	ADJ	A	Number=Sing	66	amod	_	_
-68	e	e	CCONJ	CC	_	69	cc	_	_
-69	adriatica	adriatico	ADJ	A	Gender=Fem|Number=Sing	67	conj	_	SpaceAfter=No
-70	,	,	PUNCT	FF	_	3	punct	_	_
-71	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	73	aux	_	_
-72	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	73	aux:pass	_	_
-73	incatenati	incatenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-74	in	in	ADP	E	_	77	case	_	_
-75	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
-76	ferreo	ferreo	ADJ	A	Gender=Masc|Number=Sing	77	amod	_	_
-77	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	73	obl	_	_
-78	militare	militare	ADJ	A	Number=Sing	77	amod	_	SpaceAfter=No
-79	;	;	PUNCT	FC	_	73	punct	_	_
-
-~~~
-
-## Caso Appos
-
-~~~ conllu
-
-1	Giuseppe	Giuseppe	PROPN	SP	_	42	conj	_	_
-2	Mazzini	Mazzini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
-3	,	,	PUNCT	FF	_	6	punct	_	_
-4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
-6	idealista	idealista	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
-7	,	,	PUNCT	FF	_	6	punct	_	_
-
-~~~
-
-## Caso Discourse
-
-~~~ conllu
-
-1	Nè	né	CCONJ	CC	_	3	cc	_	_
-2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
-3	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	—	—	PUNCT	FF	_	5	punct	_	_
-5	badiamo	badare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|Verbform=Fin	3	discourse	_	_
-6	bene	bene	ADV	B	_	5	advmod	_	_
-7	—	—	PUNCT	FF	_	5	punct	_	_
-8	di	di	ADP	E	_	10	case	_	SpacesAfter=\s\s
-9	semplici	semplice	ADJ	A	Number=Plur	10	amod	_	_
-10	coincidenze	coincidenza	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
-11	fortuite	fortuito	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
-12	ed	e	CCONJ	CC	_	13	cc	_	_
-13	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No
-14	.	.	PUNCT	FS	_	3	punct	_	_
 
 ~~~
