@@ -167,7 +167,7 @@ title: Revisione Annotazione
 
 ~~~
 
-## Una Muraglia (assegnazione ROOT)
+## Assegnazione Root
 
 ~~~ conllu
 
@@ -215,7 +215,7 @@ ID	FORM	LEMMA	UPOS	XPOS	FEATS	HEAD	DEPREL	DEPS	MISC
 38	di	di	ADP	E	_	39	case	_	_
 39	predominio	predominio	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
 40	brutale	brutale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
-41	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+41	»	»	PUNCT	FB	_	28	punct	_	SpaceAfter=No
 42	.	.	PUNCT	FS	_	28	punct	_	SpacesAfter=\s\n
 
 ~~~
