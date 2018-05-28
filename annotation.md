@@ -263,6 +263,75 @@ title: Revisione Annotazione
 
 ~~~
 
+## 2.2 Clausal Complement e Copula (pre)
+
+~~~ conllu
+
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+3-4	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Austria	Austria	PROPN	SP	_	2	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	magiari	magiaro	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+9	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	21	mark	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	21	punct	_	_
+12	senza	senza	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Germania	Germania	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	14	punct	_	_
+19	essi	essi	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	sarebbero	essere	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	grado	grado	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+24	di	di	ADP	E	_	25	mark	_	_
+25	dominare	dominare	VERB	V	VerbForm=Inf	23	acl	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	czechi	ceco	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	in	in	ADP	E	_	29	case	_	_
+29	Boemia	Boemia	PROPN	SP	_	25	obl	_	_
+30	e	e	CCONJ	CC	_	32	cc	_	_
+31	in	in	ADP	E	_	32	case	_	_
+32	Moravia	Moravia	PROPN	SP	_	29	conj	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	rumeni	rumeno	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+36	in	in	ADP	E	_	37	case	_	_
+37	Transilvania	Transilvania	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	9	punct	_	_
+39	gl’	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|Prontype=Art	40	det	_	SpaceAfter=No
+40	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	43	punct	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	sloveni	sloveno	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+44	e	e	CCONJ	CC	_	46	cc	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	serbo-croati	serbo-croato	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+47-48	nella	_	_	_	_	_	_	_	_
+47	in	in	ADP	E	_	49	case	_	_
+48	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	zona	zona	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	_
+50	meridionale	meridionale	ADJ	A	Number=Sing	49	amod	_	_
+51	e	e	CCONJ	CC	_	52	cc	_	_
+52	adriatica	adriatico	ADJ	A	Gender=Fem|Number=Sing	50	conj	_	_
+53-54	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+53	di	di	ADP	E	_	55	case	_	_
+54	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	55	det	_	_
+55	Impero	impero	NOUN	S	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	9	punct	_	_
+
+~~~
+
+
+
 ## 3. Assegnazione Root
 
 ~~~ conllu
@@ -315,6 +384,57 @@ title: Revisione Annotazione
 
 ~~~
 
+## 3.2 Assegnazione Root (pre)
+
+~~~
+
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	muraglia	muraglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	vivente	vivere	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	popoli	popolo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	vogliano	volere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	libertà	libertà	NOUN	S	Gender=Fem	10	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	28	punct	_	_
+17	e	e	CCONJ	CC	_	28	cc	_	_
+18	che	che	PRON	PR	Prontype=Rel	28	nsubj	_	_
+19-20	sulla	_	_	_	_	_	_	_	_
+19	su	su	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	loro	loro	DET	AP	Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	pace	pace	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	libertà	libertà	NOUN	S	Gender=Fem	22	conj	_	_
+25	vigilino	vigilare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Verbform=Fin	18	acl:relcl	_	_
+26	gelosi	geloso	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	costringerà	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Germania	Germania	PROPN	SP	_	28	obj	_	_
+31	a	a	ADP	E	_	32	mark	_	_
+32-33	liberarsi	_	_	_	_	_	_	_	_
+32	liberar	liberare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+34-35	dai	_	_	_	_	_	_	_	_
+34	da	da	ADP	E	_	37	case	_	_
+35	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
+36	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	delirii	delirio	NOUN	S	Gender=Masc|Number=Plur	32	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	predominio	predominio	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	_
+40	brutale	brutale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	»	»	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+~~~
 
 
 ## 4. Caso Appos
@@ -401,6 +521,177 @@ title: Revisione Annotazione
 
 ~~~
 
+## 4. Caso Appos
+
+~~~ conllu
+
+1	Giuseppe	Giuseppe	PROPN	SP	_	6	nmod	_	_
+2	Mazzini	Mazzini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	idealista	idealista	NOUN	S	Gender=Masc|Number=Sing	45	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	quale	quale	PRON	PR	Number=Sing|PronType=Rel	17	nsubj	_	_
+10	appunto	appunto	ADV	B	_	15	advmod	_	_
+11	come	come	ADP	E	_	15	case	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	grandi	grande	ADJ	A	Number=Plur	15	amod	_	_
+15	idealisti	idealista	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpacesAfter=\s\s
+20	storico	storico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	assai	assai	ADV	B	_	23	advmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	squisito	squisito	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+24	di	di	ADP	E	_	23	case	_	_
+25	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	politici	politico	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+27	sedicenti	sedicente	ADJ	A	Number=Plur	26	amod	_	_
+28	«	«	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	realisti	realista	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+30	»	»	PUNCT	FB	_	6	punct	_	_
+31-32	educatisi	_	_	_	_	_	_	_	_
+31	educati	educare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	cinismo	cinismo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	bismarckiano	bismarckiano	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	6	punct	_	_
+41	—	—	PUNCT	FF	_	6	punct	_	_
+42	Giuseppe	Giuseppe	PROPN	SP	_	6	nmod	_	_
+43	Mazzini	Mazzini	PROPN	SP	_	42	flat:name	_	_
+44	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+46-47	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+46	su	su	ADP	E	_	48	case	_	_
+47	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	Austria	Austria	PROPN	SP	_	45	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	45	punct	_	_
+50	quando	quando	SCONJ	CS	_	53	mark	_	_
+51	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
+52	Austria	Austria	PROPN	SP	_	53	nsubj	_	_
+53	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	advcl	_	_
+54	ancora	ancora	ADV	B	_	55	advmod	_	_
+55	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	53	xcomp	_	_
+56	a	a	ADP	E	_	57	mark	_	_
+57	sfidare	sfidare	VERB	V	VerbForm=Inf	55	xcomp	_	_
+58	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+59	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	57	obj	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	45	punct	_	_
+61	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	intuizione	intuizione	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	_
+63	originalissima	originale	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	62	amod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	62	punct	_	_
+65	di	di	ADP	E	_	66	case	_	_
+66	cui	cui	PRON	PR	PronType=Rel	69	obl	_	_
+67	oggi	oggi	ADV	B	_	69	advmod	_	_
+68	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	69	aux	_	_
+69	controllare	controllare	VERB	V	VerbForm=Inf	62	acl:relcl	_	_
+70	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+71	profetica	profetico	ADJ	A	Gender=Fem|Number=Sing	72	amod	_	_
+72	genialità	genialità	NOUN	S	Gender=Fem	69	obj	_	SpaceAfter=No
+73	:	:	PUNCT	FC	_	45	punct	_	_
+
+~~~
+
+
+## 4.2 Caso Appos (pre)
+
+~~~ conllu
+
+1	Giuseppe	Giuseppe	PROPN	SP	_	6	nmod	_	_
+2	Mazzini	Mazzini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	idealista	idealista	NOUN	S	Gender=Masc|Number=Sing	45	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	quale	quale	PRON	PR	Number=Sing|PronType=Rel	17	nsubj	_	_
+10	appunto	appunto	ADV	B	_	15	advmod	_	_
+11	come	come	ADP	E	_	15	case	_	_
+12	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	grandi	grande	ADJ	A	Number=Plur	15	amod	_	_
+15	idealisti	idealista	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	istinto	istinto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpacesAfter=\s\s
+20	storico	storico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+21	assai	assai	ADV	B	_	23	advmod	_	_
+22	più	più	ADV	B	_	23	advmod	_	_
+23	squisito	squisito	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+24	di	di	ADP	E	_	23	case	_	_
+25	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
+26	politici	politico	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+27	sedicenti	sedicente	ADJ	A	Number=Plur	26	amod	_	_
+28	«	«	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	realisti	realista	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+30	»	»	PUNCT	FB	_	6	punct	_	_
+31-32	educatisi	_	_	_	_	_	_	_	_
+31	educati	educare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+32	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	31	expl	_	_
+33-34	alla	_	_	_	_	_	_	_	_
+33	a	a	ADP	E	_	35	case	_	_
+34	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	cinismo	cinismo	NOUN	S	Gender=Masc|Number=Sing	35	nmod	_	_
+39	bismarckiano	bismarckiano	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	6	punct	_	_
+41	—	—	PUNCT	FF	_	6	punct	_	_
+42	Giuseppe	Giuseppe	PROPN	SP	_	6	nmod	_	_
+43	Mazzini	Mazzini	PROPN	SP	_	42	flat:name	_	_
+44	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+46-47	sull’	_	_	_	_	_	_	_	SpaceAfter=No
+46	su	su	ADP	E	_	48	case	_	_
+47	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
+48	Austria	Austria	PROPN	SP	_	45	obl	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	45	punct	_	_
+50	quando	quando	SCONJ	CS	_	53	mark	_	_
+51	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
+52	Austria	Austria	PROPN	SP	_	53	nsubj	_	_
+53	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	advcl	_	_
+54	ancora	ancora	ADV	B	_	55	advmod	_	_
+55	destinata	destinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	53	xcomp	_	_
+56	a	a	ADP	E	_	57	mark	_	_
+57	sfidare	sfidare	VERB	V	VerbForm=Inf	55	xcomp	_	_
+58	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
+59	secoli	secolo	NOUN	S	Gender=Masc|Number=Plur	57	obj	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	45	punct	_	_
+61	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
+62	intuizione	intuizione	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	_
+63	originalissima	originale	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	62	amod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	62	punct	_	_
+65	di	di	ADP	E	_	66	case	_	_
+66	cui	cui	PRON	PR	PronType=Rel	69	obl	_	_
+67	oggi	oggi	ADV	B	_	69	advmod	_	_
+68	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	69	aux	_	_
+69	controllare	controllare	VERB	V	VerbForm=Inf	62	acl:relcl	_	_
+70	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	72	det	_	_
+71	profetica	profetico	ADJ	A	Gender=Fem|Number=Sing	72	amod	_	_
+72	genialità	genialità	NOUN	S	Gender=Fem	69	obj	_	SpaceAfter=No
+73	:	:	PUNCT	FC	_	45	punct	_	_
+
+~~~
+
+
+
 ## 5. Caso Discourse
 
 ~~~ conllu
@@ -450,6 +741,50 @@ title: Revisione Annotazione
 20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Germania	Germania	PROPN	SP	_	18	obl:agent	_	SpaceAfter=No
 22	,	,	PUNCT	FF	_	6	punct	_	_
+23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	definitivamente	definitivamente	ADV	B	_	25	advmod	_	_
+25	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Casa	Casa	PROPN	SP	_	25	obj	_	_
+28	d’	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	Absburgo	Asburgo	PROPN	SP	_	27	nmod	_	_
+30-31	nella	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Confederazione	Confederazione	PROPN	SP	_	25	obl	_	_
+33	germanica	germanico	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	25	punct	_	_
+
+~~~
+
+## 6.2 Problematiche del discorso oratorio (pre)
+
+~~~ conllu
+
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	unificazione	unificazione	NOUN	S	Gender=Fem|Number=Sing	25	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	anzi	anzi	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	rimescolamento	rimescolamento	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	truppe	truppa	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	austriache	austriaco	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	tedesche	tedesco	ADJ	A	Gender=Fem|Number=Plur	10	conj	_	_
+13	sotto	sotto	ADP	E	_	16	case	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	comando	comando	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+17	militare	militare	ADJ	A	Number=Sing	16	amod	_	_
+18	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+19-20	dalla	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Germania	Germania	PROPN	SP	_	18	obl:agent	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	2	punct	_	_
 23	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 24	definitivamente	definitivamente	ADV	B	_	25	advmod	_	_
 25	introdotto	introdurre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
