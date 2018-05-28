@@ -9,7 +9,7 @@ title: Revisione Annotazione
 
 1	fra	fra	ADP	E	_	3	case	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	5	oprhan 	_	_
+3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	73	orphan	_	_
 4	40	40	NUM	N	NumType=Card	5	nummod	_	_
 5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	73	nsubj	_	_
 6	di	di	ADP	E	_	7	case	_	_
@@ -20,7 +20,7 @@ title: Revisione Annotazione
 10	Alsazia-Lorena	Alsazia-Lorena	PROPN	SP	_	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	FF	_	13	punct	_	_
 12	di	di	ADP	E	_	13	case	_	_
-13	danesi	danese	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+13	danesi	danese	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	_
 14-15	dello	_	_	_	_	_	_	_	_
 14	di	di	ADP	E	_	16	case	_	_
 15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -86,7 +86,7 @@ title: Revisione Annotazione
 67	meridionale	meridionale	ADJ	A	Number=Sing	66	amod	_	_
 68	e	e	CCONJ	CC	_	69	cc	_	_
 69	adriatica	adriatico	ADJ	A	Gender=Fem|Number=Sing	67	conj	_	SpaceAfter=No
-70	,	,	PUNCT	FF	_	3	punct	_	_
+70	,	,	PUNCT	FF	_	73	punct	_	_
 71	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	73	aux	_	_
 72	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	73	aux:pass	_	_
 73	incatenati	incatenare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
