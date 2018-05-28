@@ -351,7 +351,7 @@ title: Revisione Annotazione
 13	e	e	CCONJ	CC	_	15	cc	_	_
 14	di	di	ADP	E	_	15	case	_	_
 15	pace	pace	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
-16	,	,	PUNCT	FF	_	25	punct	_	_
+16	,	,	PUNCT	FF	_	8	punct	_	_
 17	e	e	CCONJ	CC	_	25	cc	_	_
 18	che	che	PRON	PR	Prontype=Rel	25	nsubj	_	_
 19-20	sulla	_	_	_	_	_	_	_	_
