@@ -386,7 +386,7 @@ title: Revisione Annotazione
 
 ## 3.2 Assegnazione Root (pre)
 
-~~~
+~~~ conllu
 
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	muraglia	muraglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
