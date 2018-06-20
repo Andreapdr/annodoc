@@ -362,7 +362,7 @@ title: Revisione Annotazione
 23	e	e	CCONJ	CC	_	24	cc	_	_
 24	libertà	libertà	NOUN	S	Gender=Fem	22	conj	_	_
 25	vigilino	vigilare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Verbform=Fin	8	conj	_	_
-26	gelosi	geloso	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
+26	gelosi	geloso	ADJ	A	Gender=Masc|Number=Plur	25	xcomp	_	SpaceAfter=No
 27	,	,	PUNCT	FF	_	25	punct	_	_
 28	costringerà	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
