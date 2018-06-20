@@ -9,7 +9,7 @@ title: Revisione Annotazione
 
 1	fra	fra	ADP	E	_	3	case	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	73	orphan	_	_
+3	quali	quale	PRON	PR	Number=Plur|PronType=Rel	73	obl	_	_
 4	40	40	NUM	N	NumType=Card	5	nummod	_	_
 5	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	73	nsubj	_	_
 6	di	di	ADP	E	_	7	case	_	_
